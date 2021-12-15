@@ -74,6 +74,6 @@ li a {
 }
 
 li a:hover {
-  background-color: white;
+  background-color: purple;
 }
 li,a,ul{background-color: grey}
