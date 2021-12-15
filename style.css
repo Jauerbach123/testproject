@@ -1,6 +1,10 @@
 body {
   background-color: lightblue;
 }
+#newlink {
+  background-color: pink;
+  color:white;
+}
 h1,h3{
   color: white;
   text-align: center;
@@ -39,7 +43,7 @@ p.square{color:white
 }
 h2{ text-decoration: overline;}
 a:link, a:visited {
-  background-color: #f44336;
+  background-color: blue;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -47,14 +51,14 @@ a:link, a:visited {
 
 }
 a:hover, a:active  {
-  background-color: red;
+  background-color: blue;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: blue;
 }
 
 li {
@@ -70,5 +74,6 @@ li a {
 }
 
 li a:hover {
-  background-color: #white;
+  background-color: white;
 }
+li,a,ul{background-color: grey}
