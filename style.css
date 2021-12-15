@@ -44,8 +44,31 @@ a:link, a:visited {
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+
 }
-a:hover, a:active {
-  background-color: blue;
+a:hover, a:active  {
+  background-color: red;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+
+}
+
+li a:hover {
+  background-color: #white;
 }
